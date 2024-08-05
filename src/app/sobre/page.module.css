@@ -4,9 +4,9 @@
     width: 100%;
     height: 8rem;
     padding: 1rem;
-    border: 0.2rem solid red;
+    border: 0.2rem solid green;
 }
 
 .txt_titulo{
-    color: red;
+    color: green;
 }
