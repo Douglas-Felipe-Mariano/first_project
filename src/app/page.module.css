@@ -1,12 +1,32 @@
 .container_title{
     display: flex;
+    flex: 1;
+    flex-direction: column;
     justify-content: center;
-    width: 100%;
-    height: 8rem;
+    /* width: 100%; */
     padding: 1rem;
     border: 0.2rem solid red;
 }
 
 .txt_titulo{
     color: red;
+}
+
+.imagemHome{
+    height: 50rem;
+    width: 50rem;
+    margin: 1rem;
+}
+
+.containerImagem{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 960px) {
+    .containerImagem{
+        flex-direction: column;
+        align-items: center;
+    }
 }
