@@ -60,14 +60,20 @@ body{
 	font-style: normal;
 }
 
+.layout{
+	width: 100%;
+	max-width: 112.8rem;
+}
+
 html {
 	font-size: 62.5%;
 }
 
 .containerGlobal{
 	padding-top: 1rem;
+	flex-direction: column;
 	display: flex;
-	justify-content: center;
+
 	max-width: 124rem;
 	width: 98%;
 	padding-bottom: 2rem;
