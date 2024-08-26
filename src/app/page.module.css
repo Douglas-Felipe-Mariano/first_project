@@ -1,32 +1,24 @@
-.container_title{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    justify-content: center;
-    /* width: 100%; */
-    padding: 1rem;
-    border: 0.2rem solid red;
-}
-
-.txt_titulo{
-    color: red;
-}
-
-.imagemHome{
-    height: 50rem;
-    width: 50rem;
-    margin: 1rem;
-}
-
-.containerImagem{
-    flex-direction: row;
+.tipos {
+    color: #FAFAFA;
+    background-color: #B71C1C;
     display: flex;
     justify-content: center;
+    width: 100%;
+    max-width: 112.8rem;   
+    border-radius: 2rem;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
 }
 
-@media screen and (max-width: 960px) {
-    .containerImagem{
+.tipos .tpicon {
+    font-size: 4rem;
+    margin: 2rem 6rem;
+    cursor: pointer;
+}
+
+/* @media screen and (max-width: 960px) {
+    .containerImagem {
         flex-direction: column;
         align-items: center;
     }
-}
+} */
